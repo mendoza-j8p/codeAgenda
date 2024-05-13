@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}Code Store - Home{% endblock %}
+
+
+{% block content %}
+
+<div class="container">
+    <!-- Este bloque reemplaza el bloque de contenido en base.html -->
+    <h3>Peliculas</h3>
+    <div class="container my-3 mx-3">
+        <ul class="list-unstyled d-flex">
+            <li>
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ url_for('static', filename='img/hungergames.jpg') }}" class="card-img-top" alt="Portada de Los Juegos del Hambre" style="width: 100%; height: auto;">                    <div class="card-body">
+                        <h5 class="card-title">Los juegos del hambre</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Año: 2006</h6>
+                        <p class="card-text">Triller distópico que sigue a Katniss Everdeen mientras lucha por sobrevivir en un juego mortal televisado..</p>
+                        <div class="card-body d-flex justify-content-between">
+                            <a href="#" class="btn btn-primary">Ficha</a>
+                            <a href="#" class="btn btn-primary">Favorito</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="card" style="width: 18rem;">
+                <!-- <img src="img/theo.jpg" class="card-img-top" alt="Portada de Los Juegos del Hambre" style="width: 100%; height: auto;"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">Los juegos del hambre 2</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Año: 2006</h6>
+                        <p class="card-text">Triller distópico que sigue a Katniss Everdeen mientras lucha por sobrevivir en un juego mortal televisado..</p>
+                        <div class="card-body d-flex justify-content-between">
+                            <a href="#" class="btn btn-primary">Ficha</a>
+                            <a href="#" class="btn btn-primary">Favorito</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </div>
+</div>
+{% endblock %}
