@@ -10,7 +10,7 @@ services:
      - 5000:3000
     networks:
      - app-tier
-    container_name: container_ api_rest
+    container_name: container_api_rest
 
 networks:
   app-tier:
