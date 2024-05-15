@@ -1,3 +1,8 @@
 venv
 env
 .env
+git-log.md
+git-show.md
+git-show2.md
+git-diff.md
+git-docker-compose.yml
