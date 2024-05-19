@@ -6,3 +6,4 @@ git-show.md
 git-show2.md
 git-diff.md
 git-docker-compose.yml
++__pycache__/
