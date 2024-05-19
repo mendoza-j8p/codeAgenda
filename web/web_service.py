@@ -1,7 +1,8 @@
-from flask import Flask, render_template
+import fastapi
 import logging, json
 
-app = Flask(__name__)
+app = fastapi(__name__)
+
 
 
 gunicorn_error_logger = logging.getLogger('gunicorn.error')
